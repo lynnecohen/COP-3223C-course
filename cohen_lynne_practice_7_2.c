@@ -39,4 +39,31 @@ Write a function mazeGenerator that takes as an argument a two-dimensional 12-by
 
 */
 
+/* 
+pseudocode for 7.20
+
+- create the maze:
+   - define 12x12 array
+   - explicitly define each box of the array with the pattern: 
+# # # # # # # # # # # # 0
+# . . . # . . . . . . # 1
+. . # . # . # # # # . # 2
+# # # . # . . . . # . # 3
+# . . . . # # # . # . . 4
+# # # # . # . # . # . # 5
+# . . # . # . # . # . # 6
+# # . # . # . # . # . # 7
+# . . . . . . . . # . # 8
+# # # # # # . # # # . # 9
+# . . . . . . # . . . # 0
+# # # # # # # # # # # # 1
+0 1 2 3 4 5 6 7 8 9 0 11
+   - begin at the start (
+/*
+              //array(row, col)
+   char maze(2,2) = {{"!", "@"}, {"#", "$"}};
+puts("Values in array \"maze\" by row are:");
+printArray(maze);
 }  
+
+char array 
